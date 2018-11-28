@@ -1,5 +1,8 @@
 # Displaying Has Many Through Rails Lab
 
+rails g resource Appointment appointment_datetime:datetime doctor:references patient:references--no-test-framework
+rails g resource Song name:string artist:references genre:references --no-test-framework
+
 ## Objectives
 
 1. Construct a bi-directional has many through.
